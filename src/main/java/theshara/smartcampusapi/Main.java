@@ -11,10 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         
-        final ResourceConfig rc = new ResourceConfig().packages(
-                "theshara.smartcampusapi.resources",
-                "theshara.smartcampusapi.exceptions"
-        );
+        final ResourceConfig rc = new SmartCampusApplication();
 
         
         final HttpServer server = GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI), rc);

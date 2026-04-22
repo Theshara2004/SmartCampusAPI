@@ -4,14 +4,14 @@ import theshara.smartcampusapi.data.DataStore;
 import theshara.smartcampusapi.models.Room;
 import theshara.smartcampusapi.exceptions.RoomNotEmptyException;
 
-import jakarta.ws.rs.*;
-import jakarta.ws.rs.core.MediaType;
-import jakarta.ws.rs.core.Response;
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.List;
 
 @Path("/rooms")
-public class RoomResource {
+public class SensorRoomResource {
 
     
     @GET
